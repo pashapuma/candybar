@@ -41,7 +41,7 @@ import com.danimahardhika.android.helpers.core.ColorHelper;
 import com.danimahardhika.android.helpers.core.FileHelper;
 import com.danimahardhika.android.helpers.core.ViewHelper;
 import com.danimahardhika.android.helpers.core.utils.LogUtil;
-import com.google.android.material.floatingactionbutton;
+import com.google.android.material.button.MaterialButton;
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller;
 
 import org.json.JSONObject;
@@ -96,7 +96,7 @@ import candybar.lib.utils.listeners.RequestListener;
 public class RequestFragment extends Fragment implements View.OnClickListener {
 
     private RecyclerView mRecyclerView;
-    private ExtendedFloatingActionButton mFab;
+    private MaterialButton mFab;
     private RecyclerFastScroller mFastScroll;
     private ProgressBar mProgress;
 
